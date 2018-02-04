@@ -1,0 +1,5 @@
+CREATE TABLE Courses(CNumber VARCHAR(5), CUnits INT, CTitle VARCHAR(40), CBookISBN VARCHAR(13));
+INSERT INTO Courses VALUES (‘CS332’, ‘3’, ‘Databases and File Structures’, ‘1234567890123’);
+INSERT INTO Courses VALUES (‘CS452’, ‘3’, ‘Cryptography’, ‘9876543210321’);
+INSERT INTO Courses VALUES (‘CS440’, ‘3’, ‘Computer Architecture’, ‘9876543210123’);
+INSERT INTO Courses VALUES (‘BI170’, ‘5’, ‘Evolution and Biodiversity’, ‘162738490123’);
