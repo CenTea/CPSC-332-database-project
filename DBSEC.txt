@@ -1,0 +1,9 @@
+CREATE TABLE Sections(MCourse VARCHAR(5), SectionNum VARCHAR(2), SectionClass VARCHAR(5), MDays VARCHAR(4), BeginTime VARCHAR(5), EndTime VARCHAR(5), Seats INT, TeacherID VARCHAR(9));
+INSERT INTO Sections VALUES(‘CS332’, ‘01’, ‘CS110’, ‘MoWe’, ’16:00’, ’17:15’, ‘32’, ‘000000000’);
+INSERT INTO Sections VALUES(‘CS332’, ‘02’, ‘CS110’, ‘TuTh’, ’16:00’, ’17:15’, ‘32’, ‘000000000’);
+INSERT INTO Sections VALUES(‘CS440’, ‘01’, ‘E201’, ‘MoWe’, ’17:30’, ’19:00’, ‘50’, ‘000000000’);
+INSERT INTO Sections VALUES(‘CS440’, ‘02’, ‘CS201’, ‘TuTh’, ’20:00’, ’21:00’, ‘40’, ‘000000000’);
+INSERT INTO Sections VALUES(‘CS452’, ‘01’, ‘CS101’, ‘Mo’, ’19:00’, ’22:00’, ‘42’, ‘000000000’);
+INSERT INTO Sections VALUES(‘CS452’, ‘02’, ‘CS101’, ‘We’, ’19:00’, ’22:00’, ‘42’, ‘000000000’);
+INSERT INTO Sections VALUES(‘BI170’, ‘01’, ‘MH372’, ‘MoWe’, ’10:00’, ’12:00’, ‘25’, ‘111111111’);
+INSERT INTO Sections VALUES(‘BI170’, ‘02’, ‘MH351’, ‘TuTh’, ’08:00’, ’10:00’, ‘35’, ‘111111111’);
