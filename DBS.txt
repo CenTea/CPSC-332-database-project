@@ -1,0 +1,11 @@
+CREATE TABLE Students(cwid VARCHAR(9) NOT NULL, Sfname VARCHAR(15), Slname VARCHAR(25), saddr VARCHAR(100), sphone VARCHAR(15), PRIMARY KEY(cwid));
+INSERT INTO Students VALUES(‘123456789’, ‘Tester’, ‘Beta’, ‘1234 Fake St., Fakery, CA, 91745’, ‘1-(734)657-9000’);
+INSERT INTO Students VALUES(‘987654321’, ‘Hard’, ‘Alpha’, ‘25463 Real Av., Lifery, CA, 91823’, ‘1-(892)586-8000’);
+INSERT INTO Students VALUES(‘192837465’, ‘Harry’, ‘Problem’, ‘5869 Work Wy., Security, CA, 91834’, ‘1-(753)557-9090’);
+INSERT INTO Students VALUES(‘918273645’, ‘Bob’, ‘Robinson’, ‘8394 Shelter St., Houstin, CA, 91354’, ‘1-(847)749-8274’);
+INSERT INTO Students VALUES(‘546372819’, ‘Grace’ , ‘Gracia’, ‘9274 Church Av., Arad, CA, 91072’, ‘1-(656)493-5534’);
+INSERT INTO Students VALUES(‘564738291’, ‘Kyou’, ‘Dai’, ‘75382 Sunset Blvd., Sunnyvale, CA, 91753’, ‘1-(656)493-5534’);
+INSERT INTO Students VALUES(‘909088443’, ‘King’, ‘Vu’, ‘8294 Chesire Rd., Orange, CA, 91732’, ‘1-(908)758-3921’);
+INSERT INTO Students VALUES(‘847338211’, ‘John’, ‘Smith’, ‘97042 Mortis St., Stoney, CA, 91768’, ‘1-(374)383-3251’);
+INSERT INTO Students VALUES(‘473982612’, ‘Connor’, ‘Ryu’, ‘2731 Nutwood Av., Inglewood, CA, 79821’, ‘1-(358)443-5592’);
+INSERT INTO Students VALUES(‘923248732’, ‘Matthew’, ‘Tea’, ‘74831 State College Av., El Monte, CA, 91755’, ‘1-(090)911-1234’);
