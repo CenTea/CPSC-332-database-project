@@ -1,0 +1,3 @@
+CREATE TABLE Departments(Did VARCHAR(3) NOT NULL, dname VARCHAR(20), dphone VARCHAR(15), OLoc VARCHAR(6), Head VARCHAR(9));
+INSERT INTO Departments VALUES (‘313’, ‘Computer Science’, ‘1-(473)583-2934’, ‘CS-522’, ‘000000000’);
+INSERT INTO Departments VALUES (‘241’, ‘Microbiology’, ‘1-(473)583-8493’, ‘MH-512’, ‘111111111’);
